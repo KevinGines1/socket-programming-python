@@ -19,5 +19,6 @@ while True:
     s.send(proceed.encode()) # send response to server
 
     if proceed == "n":
-        s.close() # if response is n, we terminate the connection to the server
-        break # end the loop too
+    	print("Bye!")
+    	s.close() # if response is n, we terminate the connection to the server
+    	break # end the loop too
